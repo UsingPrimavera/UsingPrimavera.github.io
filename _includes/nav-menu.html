@@ -1,0 +1,48 @@
+
+
+    
+    <div class="nav-wrap d-flex flex-row align-items-center">
+    <nav id="nav-menu-container">
+        <ul class="nav-menu">
+            {%- for menu in site.data.menus.header -%}
+            {%- if menu.menu-has-children -%} 
+            <li  class="menu-has-children ">  <!-- parent-active -->
+                <a href="{{ menu.link }}" class="sf-with-ul">{{ menu.title }}</a>
+                <ul style="display: none;">
+                    {%- for child in  menu.menu-has-children -%}
+                    <li>
+                        <a href="{{child.link}}">{{child.title}}</a>
+                    </li>
+                    {%- endfor -%}
+                </ul>
+            </li>
+            {%- endif -%}
+            {%- else -%}
+            <li>
+                <a href="{{ menu.link }}">{{ menu.title }}</a>
+            </li>
+            {%- endfor -%}
+
+
+
+
+
+            <li>
+                <a href="{{ 'about' | relative_url }}">About Us</a>
+            </li>
+
+            <li>
+                <a href="{{ 'pricing' | relative_url }}">Pricing</a>
+            </li>
+            <li>
+                <a href="{{ 'blog' | relative_url }}">Blog</a>
+            </li>
+            <li>
+                <a href="{{ 'contact' | relative_url }}">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <a class="genric-btn" href="{{ site.request-demo }}">Free trial</a>
+</div>
+<!-- #nav-menu-container -->
+

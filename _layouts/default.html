@@ -1,0 +1,77 @@
+---
+layout: compress.html
+---
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+{% include head.html %}
+
+
+{%- if page.hero -%}
+    {%- assign hero = page.hero -%}
+{%- else -%}
+    {%- assign hero = site.hero -%}
+{%- endif -%}
+
+{%- if hero == 'product_video' -%}
+
+    {% assign body_class = 'version9 parent-active' %}
+
+{% elsif hero == 'sass_sideo' %}
+
+    {% assign body_class = 'version8 parent-active' %}
+
+{% elsif hero == 'products_fixed' %}
+
+    {% assign body_class = "version7 parent-active" %}
+
+{% elsif hero == 'product_slider' %}
+
+    {% assign body_class = "version9 parent-active" %}
+
+
+{% elsif hero == 'saas_slider' %}
+
+    {% assign body_class = "version8 parent-active" %}
+
+{% elsif hero == 'product_image' %}
+
+    {% assign body_class = "version4 parent-active" %}
+
+{% elsif hero == 'saas_image' %}
+
+    {% assign body_class = "version3 parent-active" %}
+
+{% elsif hero == 'product' %}
+
+    {% assign body_class = "version2 parent-active" %}
+
+{% elsif hero == 'saas_fixed' %}
+
+    {% assign body_class = "version1-1  parent-active" %}
+    
+{% elsif hero == "sass" %}
+
+    {% assign body_class = "version1 parent-active" %}
+
+{% endif %}
+
+
+
+<body class="{{ body_class }}">
+
+    {% include header.html %}
+    
+    {{ content }}
+    
+    <!-- {% include base/right-sidebar-2.html %} -->
+
+    {% include footer.html %}
+
+    
+    {% include scripts.html %}
+</body>
+
+</html>
+
+
