@@ -1,42 +1,172 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+####################################
+######     Global start     ######
+####################################
+name                : 'Becore'
+title               : 'Softdash - Creative SaaS And Software HTML5 Jekyll Template'
+email               : demo@example.com
+address             : '2216 Park Avenue, California 95630 '
+phone               : 0185612012035
+tagline             : 'description for your new site here' 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl             : "" # the subpath of your site, e.g. /blog
+url                 : "https://laughing-hypatia-1962bd.netlify.com/" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
+twitter_username    : jekyllrb
+github_username     :  jekyll
+favicon: 'img/favicon.png'
+
+paginate: 12
+paginate_path: "/blog/page:num/"
+
+sass:
+    sass_dir: _sass
+    style: compressed
 
 # Build settings
-markdown: kramdown
+markdown            : kramdown
+
+# all plugin
 plugins:
   - jekyll-feed
+
+# google_analytics
+google_analytics: ''
+
+# disqus comment
+disqus:
+  shortname: ''
+
+
+####################################
+######     Hero start     ######
+####################################
+# product_background_image          sass
+# product_fixed_image               saas_video             
+# product                           sass_background_image
+# product_slider                    sass_fixed_image
+# product_video                     sass_slider       
+
+hero: 'product_fixed_image'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
+####################################
+######      Global end      ######
+####################################
+
+
+
+####################################
+######  Statistics Section    ######
+####################################
+statistics_title: 'We glow with Our Statistics'
+statistics_description: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools getting infected.'
+statistics_image: 'img/title-icon.png'
+
+# main big image
+statistics_start_image: 'img/stat/stat-img.png'
+
+# 4 section image
+statistics_item_one_image: 'img/stat/s1.png'
+statistics_item_one_title: 'Productivity'
+statistics_item_one_link: '#'
+statistics_item_one_description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'
+
+statistics_item_two_image: 'img/stat/s2.png'
+statistics_item_two_title: 'Sales Monitoring'
+statistics_item_two_link: '#'
+statistics_item_two_description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'
+
+statistics_item_three_image: 'img/stat/s2.png'
+statistics_item_three_title: 'Payment Stats'
+statistics_item_three_link: '#'
+statistics_item_three_description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'
+
+statistics_item_four_image: 'img/stat/s4.png'
+statistics_item_four_title: 'Pending Clearnance'
+statistics_item_four_link: '#'
+statistics_item_four_description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'
+
+
+
+####################################
+######    Social Section      ######
+####################################
+social_title: 'Manage Social Network with Our Managing Toolkit'
+social_description: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected. Spyware scan review is a free service for anyone interested in downloading spyware/adware removal software. Our adware remover is the most trusted.'
+social_image: 'img/social-img.png'
+social_button_text: 'Browse free demo'
+social_button_link: '#'
+
+
+
+mailchimp:
+  user-id: 
+  list-id: 
+
+
+####################################
+######        Copyright       ######
+####################################
+copyright_text: Copyright © 2019 All rights reserved to
+company_url: '#'
+
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
+
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+#google map api key
+
+map: 'AIzaSyA7nx22ZmINYk9TGiXDEXGVxghC43Ox6qA'
