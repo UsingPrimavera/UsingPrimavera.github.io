@@ -3,7 +3,8 @@ layout: post
 title:  "Creating a P6 Java API Session"
 description: How to create a Primavera P6 Java API Session from which one can go on to write an application using the capabilities power of Primavera P6. 
 date:   2015-11-08 13:04:06 +0000
-image: "/assets/images/p6_create-java-session400.png"
+author:	Barrie Callender
+image: "assets/images/p6_create-java-session400.png"
 ---
 First of all, before starting to write any code, one has to install the Oracle Primavera P6 Integration API. The official [Oracle Primavera P6 Documentation](https://docs.oracle.com/en/industries/construction-engineering/primavera-p6-eppm/index.html) will tell you how to do that. Having installed the P6 Integration API, the next step for any would be P6 programmer is to write code that will login to a P6 Java API Session so they can work their developer magic on P6.
 

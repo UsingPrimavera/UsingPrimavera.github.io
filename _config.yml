@@ -2,21 +2,19 @@
 ####################################
 ######     Global start     ######
 ####################################
-name                : 'Becore'
-title               : 'Softdash - Creative SaaS And Software HTML5 Jekyll Template'
-email               : demo@example.com
-address             : '2216 Park Avenue, California 95630 '
-phone               : 0185612012035
-tagline             : 'description for your new site here' 
+name: '## Name ##'
+title: '## title ##'
+email: barrie@usingprimavera.com
+address: '44 farnesdown Drive, Wokingham, Berkshire RG41 1LD'
+phone: '07787 124521'
+tagline: '## tagline ##' 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl             : "" # the subpath of your site, e.g. /blog
-url                 : "https://laughing-hypatia-1962bd.netlify.com/" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
-twitter_username    : jekyllrb
-github_username     :  jekyll
-favicon: 'img/favicon.png'
+  ## description ##
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://usingprimavera.com" # the base hostname & protocol for your site
+twitter_username: usingprimavera
+github_username: usingprimavera
+favicon: 'assets/img/favicon.png'
 
 paginate: 12
 paginate_path: "/blog/page:num/"
@@ -26,7 +24,7 @@ sass:
     style: compressed
 
 # Build settings
-markdown            : kramdown
+markdown: kramdown
 
 # all plugin
 plugins:
@@ -49,7 +47,7 @@ disqus:
 # product_slider                    sass_fixed_image
 # product_video                     sass_slider       
 
-hero: 'product_fixed_image'
+hero: 'products_fixed'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -86,28 +84,28 @@ whitelist:
 ####################################
 statistics_title: 'We glow with Our Statistics'
 statistics_description: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools getting infected.'
-statistics_image: 'img/title-icon.png'
+statistics_image: 'assets/img/title-icon.png'
 
 # main big image
-statistics_start_image: 'img/stat/stat-img.png'
+statistics_start_image: 'assets/img/stat/stat-img.png'
 
 # 4 section image
-statistics_item_one_image: 'img/stat/s1.png'
+statistics_item_one_image: 'assets/img/stat/s1.png'
 statistics_item_one_title: 'Productivity'
 statistics_item_one_link: '#'
 statistics_item_one_description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'
 
-statistics_item_two_image: 'img/stat/s2.png'
+statistics_item_two_image: 'assets/img/stat/s2.png'
 statistics_item_two_title: 'Sales Monitoring'
 statistics_item_two_link: '#'
 statistics_item_two_description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'
 
-statistics_item_three_image: 'img/stat/s2.png'
+statistics_item_three_image: 'assets/img/stat/s2.png'
 statistics_item_three_title: 'Payment Stats'
 statistics_item_three_link: '#'
 statistics_item_three_description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'
 
-statistics_item_four_image: 'img/stat/s4.png'
+statistics_item_four_image: 'assets/img/stat/s4.png'
 statistics_item_four_title: 'Pending Clearnance'
 statistics_item_four_link: '#'
 statistics_item_four_description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'
@@ -119,7 +117,7 @@ statistics_item_four_description: 'Making changes in your life is great and it i
 ####################################
 social_title: 'Manage Social Network with Our Managing Toolkit'
 social_description: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected. Spyware scan review is a free service for anyone interested in downloading spyware/adware removal software. Our adware remover is the most trusted.'
-social_image: 'img/social-img.png'
+social_image: 'assets/img/social-img.png'
 social_button_text: 'Browse free demo'
 social_button_link: '#'
 
