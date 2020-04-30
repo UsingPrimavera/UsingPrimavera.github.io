@@ -19,7 +19,7 @@ name: 'blog'
                 <p class="mt-25 post-info">
                     <span class="author">
                         <a href="#">{{ post.author }}</a>
-                    </span> on {%- assign date_format = site.softdash.date_format | default: " %-d %B %Y" -%}
+                    </span> on {%- assign date_format = site.date_format | default: " %-d %B %Y" -%}
                                     {{ post.date | date: date_format }}
                 </p>
                 <div class="mb-15">
