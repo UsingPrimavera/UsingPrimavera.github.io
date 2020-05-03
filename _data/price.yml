@@ -1,0 +1,47 @@
+
+
+#####################################
+########## Pricing Tables ###########
+#####################################
+pricing-table-title: 'Select your Best Pricing'
+pricing-table-description: "The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools getting infected. "
+
+# Personal Plan
+plan-starter-name: starter
+plan-starter-tagline: Small business holders
+plan-starter-price: '<span>£29</span>/mo'
+plan-starter-offer-line-1-info:  2 User permission
+plan-starter-offer-line-2-info:  Customization Allowed 
+plan-starter-offer-line-3-info:  Social media tool Enabled 
+plan-starter-offer-line-4-info:  No Online Support 
+plan-starter-offer-line-5-info:  6 Months Backup 
+plan-starter-url: '#'
+plan-starter-btn_text: 'Get Started'
+
+# Team Plan
+plan-standard-name: standard
+plan-standard-tagline: Small business holders
+plan-standard-price: '<span>£49</span>/mo'
+plan-standard-offer-line-1-info: 2 User permission 
+plan-standard-offer-line-2-info: Customization Allowed 
+plan-standard-offer-line-3-info: Social media tool Enabled 
+plan-standard-offer-line-4-info: No Online Support 
+plan-standard-offer-line-5-info:  6 Months Backup 
+plan-standard-url: '#'
+plan-standard-btn_text: 'Get Started'
+
+
+# business Plan
+plan-business-name: premium
+plan-business-tagline: Small business holders
+plan-business-price: '<span>£99</span>/mo'
+plan-business-offer-line-1-info: 2 User permission 
+plan-business-offer-line-2-info: Customization Allowed 
+plan-business-offer-line-3-info: Social media tool Enabled 
+plan-business-offer-line-4-info: No Online Support 
+plan-personal-offer-line-5-info: 6 Months Backup 
+plan-business-url: '#'
+plan-business-btn_text: 'Get Started'
+
+
+

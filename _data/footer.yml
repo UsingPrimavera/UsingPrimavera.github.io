@@ -1,0 +1,35 @@
+
+
+#####################################
+##########     footer      ###########
+#####################################
+
+title: 'About Us'
+description: 'About 64% of all on-line teens say that do things online that they wouldn’t want their parents to know about. 11% of all adult internet user visit websites.'
+
+resources_link_heading: 'Resources'
+resources_link_one_text: 'Guides'
+resources_link_one_link: '#'
+resources_link_two_text: 'Research'
+resources_link_one_link: '#'
+resources_link_three_text: 'Experts'
+resources_link_one_link: '#'
+resources_link_four_text: 'Agencies'
+resources_link_one_link: '#'
+
+
+features_link_heading: 'Features'
+features_link_one_text: 'Guides'
+features_link_one_link: '#'
+features_link_two_text: 'Research'
+features_link_one_link: '#'
+features_link_three_text: 'Experts'
+features_link_one_link: '#'
+features_link_four_text: 'Agencies'
+features_link_one_link: '#'
+
+
+facebook_link: '#'
+twitter_link: '#'
+dribbble_link: '#'
+behance_link: '#'

@@ -1,0 +1,22 @@
+title: 'Help the Humans, Work the Products'
+description: 'Helping people understand why they do what they do, improves working behaviour, and helps them exploit the tools placed in their hands.  Tools like Oracle Primavera.'
+image: 'assets/img/title-icon.png'
+
+slider:
+  - image: 'assets/images/human_empowerment752x401.png'
+  - image: 'assets/images/policy_and_guidance752x401.png'
+  - image: 'assets/images/tool_exploitation752x401.png'
+
+process: 
+  - name: Human empowerment 
+    image: 'assets/img/stat/s5.png'
+    description: 'We like to explain what is behind our advice to use a tool a certain way, or why we configure the tools the way we have.  We want our clients to understand, so they can face new challenges without needing a script telling them which buttons to press.'
+  
+  - name: Policy & guidance
+    image: 'assets/img/stat/s3.png'
+    description: 'A good policy is based on good requirements.  Guidance developed from such a position allows users to act appropriately.  Guidance is best when it leans on skillfull, knowledgable and empowered people'
+  
+  - name: Tool exploitation
+    image: 'assets/img/stat/s2.png'
+    description: 'Having in depth practical knowledge of the Oracle Primavera tools allows us to help our clients exploit them beyond the sales demonstration.  We aim for th etools to implement the policy and guidance and not constrain them.'
+

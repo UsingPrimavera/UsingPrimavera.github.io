@@ -1,0 +1,18 @@
+
+
+
+####################################
+######  feature Section   ######
+####################################
+
+image_one: 'img/feature/i1.png'
+title_one: 'Collaboration'
+description_one: 'Some days a motivational quote can provide a quick pick-me-up for employees and even  management.'
+
+image_two: 'img/feature/i3.png'
+title_two: 'Full of features'
+description_two: 'Some days a motivational quote can provide a quick pick-me-up for employees and even management.'
+
+image_three: 'img/feature/i4.png'
+title_three: 'Global Framework'
+description_three: 'Some days a motivational quote can provide a quick pick-me-up for employees and even management.'
