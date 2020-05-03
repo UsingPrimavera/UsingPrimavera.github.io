@@ -53,7 +53,8 @@ date_format: ' %-d %B %Y'
 # product_slider                    sass_fixed_image
 # product_video                     sass_slider       
 
-hero: 'products_fixed'
+hero-display: false
+hero: 'no_hero'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

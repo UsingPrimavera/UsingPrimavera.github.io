@@ -2,7 +2,9 @@
 layout: blog
 name: 'blog'
 ---
+{% if site.hero-display %}
 {% include hero/blog.html %}
+{% endif %}
 <!-- Start blog posts -->
 <section class="blog-post section-gap">
     <div class="container">
