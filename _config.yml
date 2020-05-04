@@ -15,7 +15,7 @@ url: "https://usingprimavera.com" # the base hostname & protocol for your site
 twitter_username: usingprimavera
 github_username: usingprimavera
 favicon: 'assets/img/favicon.png'
-
+permalink: /:year/:month/:day/:title:output_ext
 paginate: 12
 paginate_path: "/blog/page:num/"
 
