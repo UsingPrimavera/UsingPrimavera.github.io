@@ -14,7 +14,7 @@ name: 'blog'
            <div class="col-lg-4 col-md-6">
             <div class="single-card card">
                {% if post.image %}
-               <img class="card-top-img" src="{{ post.image | relative_url }}" alt="Card image cap">
+	       <a href="{{ post.url }}"><img class="card-top-img" src="{{ post.image | relative_url }}" alt="Card image cap"></a>
                {% endif %}
                <div class="card-body">
                 <a href="#" class="genric-btn card-btn">{{ post.category | first }}</a>
