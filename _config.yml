@@ -29,7 +29,10 @@ markdown: kramdown
 # all plugin
 plugins:
   - jekyll-feed
-
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll/tagging
 # google_analytics
 google_analytics: ''
 
