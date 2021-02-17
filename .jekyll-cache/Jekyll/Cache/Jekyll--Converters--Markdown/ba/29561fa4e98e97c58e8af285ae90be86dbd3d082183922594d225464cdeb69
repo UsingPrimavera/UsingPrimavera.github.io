@@ -1,2 +1,0 @@
-I"é<p>First of all, before starting to write any code, one has to install the Oracle Primavera P6 Integration API. The official <a href="https://docs.oracle.com/en/industries/construction-engineering/primavera-p6-eppm/index.html">Oracle Primavera P6 Documentation</a> will tell you how to do that. Having installed the P6 Integration API, the next step for any would be P6 programmer is to write code that will login to a P6 Java API Session so they can work their developer magic on P6.</p>
-:ET
