@@ -1,6 +1,18 @@
+<!-- Re-direct to another URL -->
+{% if page.redirect %}
 <!DOCTYPE html>
 <html lang="en">
+<head><meta http-equiv="refresh" content="0; url={{ page.redirect }}" /></head>
+<body></body>
+</html>
+{% else %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+
 <head>
+  
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -96,3 +108,4 @@
 </body>
 
 </html>
+{% endif %}
