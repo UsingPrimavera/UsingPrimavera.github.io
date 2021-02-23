@@ -1,179 +1,64 @@
+# Site
+name: 'Using Primavera'
+description: >- 
+  This site is aboout the work I undertake using Primavera P6, Primavera P6 EPPM, 
+  Primavera Unifier, Primavera Gateway, Primavera Data Warehouse and Primavera Analytics.
+logo: 'assets/images/logo.png' 
+favicon: 'assets/images/favicon.png'
+baseurl: ''
+disqus: ''
+email: 'barrie@usingprimavera.com'
+mailchimp-list: ''
 
-####################################
-######     Global start     ######
-####################################
-name: 'Workpattern Limited'
-title: 'Using Primavera'
-email: barrie@usingprimavera.com
-address: '44 farnesdown Drive, Wokingham, Berkshire RG41 1LD'
-phone: '07787 124521'
-tagline: '## tagline ##' 
-description: >- # this means to ignore newlines until "baseurl:"
-  ## description ##
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://usingprimavera.com" # the base hostname & protocol for your site
-twitter_username: usingprimavera
-github_username: usingprimavera
-favicon: 'assets/img/favicon.png'
+include: ["_pages"]
 permalink: /:year/:month/:day/:title:output_ext
-paginate: 12
-paginate_path: "/blog/page:num/"
 
-sass:
-    sass_dir: _sass
-    style: compressed
-
-# Build settings
-markdown: kramdown
-
-# all plugin
-plugins:
+# Plugins
+plugins: 
   - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll/tagging
-# google_analytics
-google_analytics: ''
+  - jekyll-seo-tag
 
-# disqus comment
-disqus:
-  shortname: ''
+authors:
+    bc:
+      name:           Barrie
+      site:           https://usingprimavera.com
+      avatar:         /assets/images/avatar_barrie.jpg
+      bio:            ""
+      email:          barrie@usingprimavera.com
+      twitter:        https://twitter.com/usingprimavera
+ 
+# Defaults
+defaults:
 
-####################################
-#####  Site Defaults        ########
-####################################
-date_format: ' %-d %B %Y'
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: bc
+      avatar: /assets/images/avatar_barrie.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
 
-
-
-####################################
-######     Hero start     ######
-####################################
-# product_background_image          sass
-# product_fixed_image               saas_video             
-# product                           sass_background_image
-# product_slider                    sass_fixed_image
-# product_video                     sass_slider       
-
-hero-display: false
-hero: 'no_hero'
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-include-cache
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-include-cache
-
-####################################
-######      Global end      ######
-####################################
+# Paginate
+paginate: 10
 
 
 
-####################################
-######  Statistics Section    ######
-####################################
-statistics_title: 'We glow with Our Statistics'
-statistics_description: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools getting infected.'
-statistics_image: 'assets/img/title-icon.png'
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.md, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
 
-# main big image
-statistics_start_image: 'assets/img/stat/stat-img.png'
-
-# 4 section image
-statistics_item_one_image: 'assets/img/stat/s1.png'
-statistics_item_one_title: 'Productivity'
-statistics_item_one_link: '#'
-statistics_item_one_description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'
-
-statistics_item_two_image: 'assets/img/stat/s2.png'
-statistics_item_two_title: 'Sales Monitoring'
-statistics_item_two_link: '#'
-statistics_item_two_description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'
-
-statistics_item_three_image: 'assets/img/stat/s2.png'
-statistics_item_three_title: 'Payment Stats'
-statistics_item_three_link: '#'
-statistics_item_three_description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'
-
-statistics_item_four_image: 'assets/img/stat/s4.png'
-statistics_item_four_title: 'Pending Clearnance'
-statistics_item_four_link: '#'
-statistics_item_four_description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'
-
-
-
-####################################
-######    Social Section      ######
-####################################
-social_title: 'Manage Social Network with Our Managing Toolkit'
-social_description: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected. Spyware scan review is a free service for anyone interested in downloading spyware/adware removal software. Our adware remover is the most trusted.'
-social_image: 'assets/img/social-img.png'
-social_button_text: 'Browse free demo'
-social_button_link: '#'
-
-
-
-mailchimp:
-  user-id: 
-  list-id: 
-
-
-####################################
-######        Copyright       ######
-####################################
-copyright_text: Copyright © 2019 - 2020 All rights reserved to
-company_url: '/'
-
-
-# SEO Related
-google_site_verification : sAxZdzVyKssJ_FNg9iSNxMBUbf4C6jB6H0qwtjlAboU
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
-
-# Social Sharing
-twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
-# Analytics
-analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
-
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+##############################################################################
 
 #google map api key
 
