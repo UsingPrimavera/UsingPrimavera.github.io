@@ -21,10 +21,10 @@ plugins:
   - jekyll-seo-tag
 
 authors:
-    bc:
+    barrie:
       name:           Barrie
       site:           https://usingprimavera.com
-      avatar:         /assets/images/avatar_barrie.jpg
+      avatar:         assets/images/avatar_barrie.jpg
       bio:            ""
       email:          barrie@usingprimavera.com
       twitter:        https://twitter.com/usingprimavera
@@ -37,7 +37,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: bc
+      author: Barrie
       avatar: /assets/images/avatar_barrie.jpg
       
   # all pages

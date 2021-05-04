@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  'Creating a P6 Java API Session'
-description: 'How to create a Primavera P6 Java API Session from which one can go on to write an application using the capabilities power of Primavera P6.' 
+title:  Creating a P6 Java API Session
+description: 'How to create a Primavera P6 Java API Session from which one can go on to write an application using the capabilities present in Primavera P6.' 
 date:   2015-11-08 13:04:06 +0000
-author:	'Barrie Callender'
+author:	barrie
 categories: java-api
 image: 'assets/images/p6_create-java-session400.png'
 ---

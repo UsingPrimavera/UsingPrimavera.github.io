@@ -1,7 +1,7 @@
 ---
 layout: post
 name: about
-title: 'About Us'
+title: About Us
 description: Describes the aims of Using Primavera site and the person and company behind it. 
 date:   2015-09-07 22:13:12 +0000
 author:	Barrie Callender
