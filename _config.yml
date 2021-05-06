@@ -11,7 +11,7 @@ email: 'barrie@usingprimavera.com'
 mailchimp-list: ''
 
 include: ["_pages"]
-permalink: /:year/:month/:day/:title:output_ext
+permalink: pretty
 
 # Plugins
 plugins: 
