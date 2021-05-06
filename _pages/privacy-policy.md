@@ -1,6 +1,8 @@
 ---
 title: "Privacy Policy"
+layout: page-sidebar
 permalink: "/privacy-policy.html"
+comments: false
 ---
 
 "{{site.name}}" takes your privacy seriously. To better protect your privacy we provide this privacy policy notice explaining the way your personal information is collected and used.
