@@ -8,7 +8,11 @@ favicon: 'assets/images/favicon.png'
 baseurl: ''
 disqus: ''
 email: 'barrie@usingprimavera.com'
-mailchimp-list: ''
+# Newsletter
+tinyletter: true # To enable the TinyLetter form, use the value true. To turn off use the value false.
+tinyletter-identifier: 'https://tinyletter.com/UsingPrimavera' # Add your TinyLetter subscribe form.
+tinyletter-title: 'Get Newsletter Updates'
+tinyletter-description: 'Subscribe to our newsletter to hear what we have been writing and hearing about.'
 
 include: ["_pages"]
 permalink: pretty
