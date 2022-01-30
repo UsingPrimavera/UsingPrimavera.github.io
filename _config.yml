@@ -67,3 +67,15 @@ exclude: [README.md, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, nod
 #google map api key
 
 map: 'AIzaSyA7nx22ZmINYk9TGiXDEXGVxghC43Ox6qA'
+
+# jekyll_compose
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      description:
+      author: barrie
+      image:
+    posts:
+      description:
+      author: barrie
+      image:
