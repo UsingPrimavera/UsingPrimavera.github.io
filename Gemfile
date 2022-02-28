@@ -11,7 +11,7 @@ source "https://rubygems.org"
 gem "bundler"
 gem "jekyll" #, "~> 4.0.0"
 
-# Use Octopress with Jekyll
+# Use Jekyll-Compose with Jekyll
 gem 'octopress', '~> 3.0'
 
 # Other required gems or specific versions
