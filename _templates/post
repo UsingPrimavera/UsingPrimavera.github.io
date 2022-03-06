@@ -1,5 +1,9 @@
 ---
 layout: {{ layout }}
 title: "{{ title }}"
+description: "{{ title }}"
 date: {{ date }}
+author: barrie
+categories:
+image:
 ---
