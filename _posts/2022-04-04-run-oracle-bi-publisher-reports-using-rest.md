@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Run Oracle BI Publisher reports using REST"
-date: 2022-04-04T20:44:32+00:00
+date: 2022-04-04T20:44:32+01:00
 description: This first post takes the reader to the point of making REST GET requests to BI Publisher using Postman.  The next post in the series shows how to run reports.
 author: barrie
 categories:
