@@ -5,6 +5,7 @@ description: >-
   Primavera Unifier, Primavera Gateway, Primavera Data Warehouse and Primavera Analytics.
 logo: 'assets/images/logo.png' 
 favicon: 'assets/images/favicon.png'
+url: 'https://usingprimavera.com'
 baseurl: ''
 disqus: ''
 email: 'barrie@usingprimavera.com'
