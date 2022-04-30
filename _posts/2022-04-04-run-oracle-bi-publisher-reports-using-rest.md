@@ -2,16 +2,16 @@
 layout: post
 title: "Run Oracle BI Publisher reports using REST"
 date: 2022-04-04T20:44:32+01:00
-description: This first post takes the reader to the point of making REST GET requests to BI Publisher using Postman.  The next post in the series shows how to run reports.
+description: How to use REST to run Oracle BI Publisher reports, which can be useful for extracting data from your application, such as Oracle Primavera in our case.
 author: barrie
 categories:
 image: assets/images/postman_running_bip_report.png
 ---
-Recently we needed to run a series of Oracle BI Publisher reports to extract the data and store it in another system. We found the official [REST API for Oracle Business Intelligence Publisher](https://docs.oracle.com/middleware/bi12214/bip/BIPAP/index.html) to be incomplete in this respect.  We managed to hunt down the missing information, and decided to write a post showing what we did in an effort to help others who may be stuck in the same way we were.
+Recently we needed to run a series of Oracle BI Publisher reports to extract data from Oracle Primavera P6 and Oracle Primavera Unifier, and store it in another system.
 
-As the original post grew, we decided it would be better to write more than one post, and publish them at the same time.
+We found the official [REST API for Oracle Business Intelligence Publisher](https://docs.oracle.com/middleware/bi12214/bip/BIPAP/index.html) to be incomplete in this respect.  We managed to hunt down the missing information, and decided to write a post showing what we did in an effort to help others who may be stuck in the same way we were.
 
-This is the first post in the series and starts by using the REST API directly from a Web Browser to retrieve information about a report.  Then we'll do the same thing using Postman to ease you into how it works.  The next post in this short series uses Postman to run a report to return some data, before running reports that need parameters and how to retrieve the same report in different data formats.
+This post is intended to get you up and running with using the Oracle BI Publisher REST API.  We start by using the REST API directly from a Web Browser to retrieve information about a report.  Then we'll do the same thing using Postman to help get started with it, if you have never used it before.  Then we'll use Postman to run a report to return some data, before running reports that need parameters and how to retrieve the same report in different data formats.
 
 We used the free [Postman](https://www.postman.com/) application to find out what to do, and have also used that knowledge to implement the same thing using [PowerBI Desktop](https://www.microsoft.com/en-gb/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) and the [Power Query M formula language](https://docs.microsoft.com/en-us/powerquery-m/).
 
