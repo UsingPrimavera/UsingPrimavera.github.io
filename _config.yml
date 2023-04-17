@@ -1,8 +1,7 @@
 # Site
 name: 'Using Primavera'
 description: >- 
-  This site is about the work I undertake using Primavera P6, Primavera P6 EPPM, 
-  Primavera Unifier, Primavera Gateway, Primavera Data Warehouse and Primavera Analytics.
+  Oracle Primavera P6, Unifier and Oracle BI Publisher
 logo: 'assets/images/logo.png' 
 favicon: 'assets/images/favicon.png'
 url: 'https://usingprimavera.com'
@@ -13,7 +12,7 @@ email: 'barrie@usingprimavera.com'
 tinyletter: true # To enable the TinyLetter form, use the value true. To turn off use the value false.
 tinyletter-identifier: 'https://tinyletter.com/UsingPrimavera' # Add your TinyLetter subscribe form.
 tinyletter-title: 'Get Newsletter Updates'
-tinyletter-description: 'Subscribe to our newsletter to hear what we have been writing and hearing about.'
+tinyletter-description: 'Subscribe to our newsletter to hear what we have been writing about.'
 
 include: ["_pages"]
 permalink: pretty
@@ -42,7 +41,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: barrie
+      author: Barrie
       avatar: /assets/images/avatar_barrie.jpg
       
   # all pages
@@ -74,11 +73,11 @@ jekyll_compose:
   default_front_matter:
     drafts:
       description:
-      author: barrie
+      author: Barrie
       image:
     posts:
       description:
-      author: barrie
+      author: Barrie
       image:
 
 # octopress
@@ -98,3 +97,4 @@ titlecase: false
 post_template: post
 page_template: page
 draft_template: draft
+
