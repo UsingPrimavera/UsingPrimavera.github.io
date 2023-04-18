@@ -15,7 +15,7 @@ tinyletter-title: 'Get Newsletter Updates'
 tinyletter-description: 'Subscribe to our newsletter to hear what we have been writing about.'
 
 include: ["_pages"]
-permalink: pretty
+permalink: :title
 
 # Plugins
 plugins: 
