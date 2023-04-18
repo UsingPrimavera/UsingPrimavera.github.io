@@ -2,6 +2,7 @@
 title: "About"
 layout: page-sidebar
 permalink: "/about.html"
+description: An introduction to Using Primavera and the person behind the site along with links to some old posts written for Ten Six Consulting.
 image: "assets/images/barrie_callender_400x400.jpg"
 comments: false
 ---
