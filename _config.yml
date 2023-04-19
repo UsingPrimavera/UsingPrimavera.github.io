@@ -1,7 +1,8 @@
 # Site
+title: Using Primavera
+tagline: Oracle BI Publisher, P6 and Unifier working together.
 name: 'Using Primavera'
-description: >- 
-  Oracle Primavera P6, Unifier and Oracle BI Publisher
+description: A blog dedicated to helping you get the practical information needed to use Oracle BI Publisher with P6 and Unifier. However, it will be more than just reports.
 logo: 'assets/images/logo.png' 
 favicon: 'assets/images/favicon.png'
 url: 'https://usingprimavera.com'
@@ -15,7 +16,7 @@ tinyletter-title: 'Get Newsletter Updates'
 tinyletter-description: 'Subscribe to our newsletter to hear what we have been writing about.'
 
 include: ["_pages"]
-permalink: :title
+permalink: /:slug/
 
 # Plugins
 plugins: 
@@ -24,14 +25,22 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap  
 
-authors:
-    barrie:
-      name:           Barrie
-      site:           https://usingprimavera.com
-      avatar:         assets/images/avatar_barrie.jpg
-      bio:            ""
-      email:          barrie@usingprimavera.com
-      twitter:        https://twitter.com/usingprimavera
+
+author:
+  name: Barrie Callender
+  twitter: usingprimavera
+  url: https://www.linkedin.com/in/barriecallender/
+  image: waldek.jpg
+twitter:
+  username: usingprimavera
+  card: summary_large_image
+social:
+  name: Barrie Callender
+  links:
+    - https://twitter.com/usingprimavera
+    - https://www.facebook.com/usingprimavera
+    - https://www.linkedin.com/in/barriecallender/
+    - https://github.com/UsingPrimavera
  
 # Defaults
 defaults:
