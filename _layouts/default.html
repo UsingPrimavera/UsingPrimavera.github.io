@@ -12,11 +12,24 @@
 
 
 <head>
-  
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBQEYPJ33T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZBQEYPJ33T');
+</script>
+
+{% if page.noindex == true %}
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex">
+{% endif %}   
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{page.title}} | {{site.name}}</title>
+    <title>{{page.title}}</title>
 
     <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
    <!-- Favicons -->
@@ -45,7 +58,7 @@
 
     {% include tracking-header.html %}
 
-    {% seo %}
+    {% seo title=false %}
 </head>
 
 <body class="{% if page.url == "/" %} homefirstpage {% endif %}">

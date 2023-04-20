@@ -1,8 +1,8 @@
 # Site
+title: Using Primavera
+tagline: Oracle BI Publisher, P6 and Unifier working together.
 name: 'Using Primavera'
-description: >- 
-  This site is about the work I undertake using Primavera P6, Primavera P6 EPPM, 
-  Primavera Unifier, Primavera Gateway, Primavera Data Warehouse and Primavera Analytics.
+description: A blog dedicated to helping you get the practical information needed to use Oracle BI Publisher with P6 and Unifier. However, it will be more than just reports.
 logo: 'assets/images/logo.png' 
 favicon: 'assets/images/favicon.png'
 url: 'https://usingprimavera.com'
@@ -13,26 +13,34 @@ email: 'barrie@usingprimavera.com'
 tinyletter: true # To enable the TinyLetter form, use the value true. To turn off use the value false.
 tinyletter-identifier: 'https://tinyletter.com/UsingPrimavera' # Add your TinyLetter subscribe form.
 tinyletter-title: 'Get Newsletter Updates'
-tinyletter-description: 'Subscribe to our newsletter to hear what we have been writing and hearing about.'
+tinyletter-description: 'Subscribe to our newsletter to hear what we have been writing about.'
 
 include: ["_pages"]
-permalink: pretty
+permalink: /:slug/
 
 # Plugins
 plugins: 
   - jekyll-feed
-  - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-sitemap  
 
-authors:
-    barrie:
-      name:           Barrie
-      site:           https://usingprimavera.com
-      avatar:         assets/images/avatar_barrie.jpg
-      bio:            ""
-      email:          barrie@usingprimavera.com
-      twitter:        https://twitter.com/usingprimavera
+
+author:
+  name: Barrie Callender
+  twitter: usingprimavera
+  url: https://www.linkedin.com/in/barriecallender/
+  image: assets/images/barrie_callender_400x400.jpg 
+twitter:
+  username: usingprimavera
+  card: summary_large_image
+social:
+  name: Barrie Callender
+  links:
+    - https://twitter.com/usingprimavera
+    - https://www.facebook.com/usingprimavera
+    - https://www.linkedin.com/in/barriecallender/
+    - https://github.com/UsingPrimavera
  
 # Defaults
 defaults:
@@ -42,7 +50,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: barrie
+      author: Barrie
       avatar: /assets/images/avatar_barrie.jpg
       
   # all pages
@@ -74,11 +82,11 @@ jekyll_compose:
   default_front_matter:
     drafts:
       description:
-      author: barrie
+      author: Barrie
       image:
     posts:
       description:
-      author: barrie
+      author: Barrie
       image:
 
 # octopress
@@ -98,3 +106,4 @@ titlecase: false
 post_template: post
 page_template: page
 draft_template: draft
+
