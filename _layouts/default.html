@@ -2,7 +2,8 @@
 {% if page.redirect %}
 <!DOCTYPE html>
 <html lang="en">
-<head><meta http-equiv="refresh" content="0; url={{ page.redirect }}" /></head>
+<head>
+    <meta http-equiv="refresh" content="0; url={{ page.redirect }}" /></head>
 <body></body>
 </html>
 {% else %}
@@ -12,7 +13,8 @@
 
 
 <head>
-<!-- Google tag (gtag.js) -->
+
+    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBQEYPJ33T"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -21,7 +23,6 @@
 
   gtag('config', 'G-ZBQEYPJ33T');
 </script>
-
 {% if page.noindex == true %}
     <meta name="robots" content="noindex, nofollow">
     <meta name="googlebot" content="noindex">
